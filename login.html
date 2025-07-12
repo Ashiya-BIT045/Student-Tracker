@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gradient Login Form</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: #f2f2f2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .login-box {
+      background: white;
+      width: 350px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+
+    .login-header {
+      background: linear-gradient(135deg, #dc69e4, #697de3);
+      color: white;
+      text-align: center;
+      padding: 25px 20px;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .login-box form {
+      padding: 20px;
+    }
+
+    .input-group {
+      margin-bottom: 15px;
+    }
+
+    .input-group input {
+      width: 100%;
+      padding: 12px;
+      border-radius: 30px;
+      border: 1px solid #ccc;
+      outline: none;
+    }
+
+    .options {
+      display: flex;
+      justify-content: space-between;
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+
+    .options input[type="checkbox"] {
+      margin-right: 5px;
+    }
+
+    .login-btn {
+      width: 100%;
+      padding: 12px;
+      border: none;
+      border-radius: 30px;
+      background: linear-gradient(135deg, #dc69e4, #697de3);
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .login-btn:hover {
+      background: linear-gradient(135deg, #f12aff, #2b4efe);
+    }
+
+    .signup-link {
+      text-align: center;
+      margin-top: 15px;
+      font-size: 14px;
+    }
+
+    .signup-link a {
+      color: #cf69e3;
+      text-decoration: none;
+      transition:text-decoration 0.3s ease 0.1s;
+    }
+
+    .signup-link a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-box">
+    <div class="login-header">
+      Login Form
+    </div>
+    <form>
+      <div class="input-group">
+        <input type="email" placeholder="Email Address" required />
+      </div>
+      <div class="input-group">
+        <input type="password" placeholder="Password" required />
+      </div>
+      <div class="options">
+        <label><input type="checkbox" /> Remember me</label>
+        <a href="#" style="color: #6a11cb;">Forgot password?</a>
+      </div>
+      <button type="submit" class="login-btn">Login</button>
+      <div class="signup-link">
+        Not a member? <a href="signup.html">Signup now</a>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
