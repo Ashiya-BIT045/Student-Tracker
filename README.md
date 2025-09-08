@@ -6,8 +6,8 @@ A React + Vite project with JSON Server for managing students.
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/Ashiya-BIT045/Student-Tracker.git
-   cd Student-Tracker
+   git clone https://github.com/Ashiya-BIT045/Student-CRUD.git
+   cd Student-CRUD
    
 2.Install dependencies:
    npm install
