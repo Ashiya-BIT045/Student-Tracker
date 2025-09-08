@@ -1,0 +1,36 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "name": "Reena",
+      "dept": "CSE",
+      "age": 20,
+      "email": "Reena@gmail.com",
+      "phoneNo": "9876663210"
+    },
+    {
+      "id": "2",
+      "name": "Meena",
+      "dept": "AIML",
+      "age": "19",
+      "email": "meena@gmail.com",
+      "phoneNo": "9876543210"
+    },
+    {
+      "id": "3",
+      "name": "Leka",
+      "dept": "EEE",
+      "age": "20",
+      "email": "leka@gmail.com",
+      "phoneNo": "5678943210"
+    },
+    {
+      "id": "4",
+      "name": "Alice",
+      "dept": "CSE",
+      "age": "18",
+      "email": "Alice340@gmail.com",
+      "phoneNo": "7890123456"
+    }
+  ]
+}

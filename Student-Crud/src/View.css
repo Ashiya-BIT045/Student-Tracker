@@ -1,0 +1,45 @@
+.container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 25px;
+  background: whitesmoke;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  font-family: "Segoe UI", Arial, sans-serif;
+  transition: transform 0.3s;
+}
+
+.container:hover {
+  transform: scale(1.01);
+}
+
+.row p {
+  margin: 12px 0;
+  font-size: 16px;
+  color: #694874;
+}
+
+.label {
+  font-weight: bold;
+  color: #756877; 
+  margin-right: 8px;
+}
+
+.row:hover p {
+  background: rgba(236, 64, 122, 0.1); 
+  padding: 6px 8px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+.Back-btn{
+    background-color:rgb(226, 17, 24);
+    color:white;
+    border-radius:8px;
+    border:none;
+    margin:10px;
+    padding:10px 20px;
+    cursor:pointer;
+}
+.Back-btn:hover{
+    background-color:rgb(174, 71, 71);
+}
