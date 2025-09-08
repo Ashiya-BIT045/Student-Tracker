@@ -1,3 +1,27 @@
+# Student-CRUD
+
+A React + Vite project with JSON Server for managing students.
+
+## How to Run
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/Ashiya-BIT045/Student-Tracker.git
+   cd Student-Tracker
+   
+2.Install dependencies:
+   npm install
+   
+3.Start JSON Server:
+   npx json-server --watch db.json --port 5000
+   
+4.Start Vite dev server:
+   npm run dev
+   
+5.Open in browser:
+  http://localhost:5173/
+  
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
