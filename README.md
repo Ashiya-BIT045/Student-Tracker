@@ -12,15 +12,33 @@ A React + Vite project with JSON Server for managing students.
 2.Install dependencies:
    npm install
    
-3.Start JSON Server:
+3.Start JSON Server(in a new terminal):
    npx json-server --watch db.json --port 5000
+This will run the backend API on http://localhost:5000.
    
 4.Start Vite dev server:
    npm run dev
    
 5.Open in browser:
   http://localhost:5173/
-  
+
+## 📸 Screenshots
+
+### Dashboard Page
+![Dashboard](public/images/dashboard.png)
+
+### Add student Page
+![Adding the student detail](public/images/Add student.png)
+
+### View Page
+![Viewing the student details](public/images/View.png)
+
+### Update Page
+![Updating the student details](public/images/update.png)
+
+### Search Page
+![searching the student details](public/images/search.png)
+
 
 # React + Vite
 
